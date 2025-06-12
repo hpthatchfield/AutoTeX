@@ -1,0 +1,6 @@
+filename,label,latex
+integral_0.png,integral,\int x^2 dx
+integral_1.png,integral,\int_0^\infty e^{-x} dx
+derivative_0.png,derivative,\frac{d}{dx} x^3
+derivative_1.png,derivative,\frac{\partial^2 u}{\partial t^2}
+sum_0.png,sum,\sum_{n=1}^\infty \frac{1}{n^2}
