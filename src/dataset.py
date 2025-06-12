@@ -17,12 +17,17 @@ class LateXImageDataset(Dataset):
         self.labels_frame = pd.read_csv(csv_file)
         self.image_dir = image_dir
         self.transform = transform
+        unique_labels = sorted(self.labels_frame['label'].unique())
+        self.label_map = {label: idx for idx, label in enumerate(unique_labels)}
+        self.idx_to_label = {idx: label for label, idx in self.label_map.items()}
+
+        print(f"Label mapping: {self.label_map}")
 
     def __len__(self):
         return len(self.labels_frame)
     
     def __getitem__(self, idx):
-        row = self.data.iloc[idx]
+        row = self.labels_frame.iloc[idx]
         img_path = os.path.join(self.image_dir, row['filename'])
         image = Image.open(img_path).convert("RGB")
         label = self.label_map[row['label']]
