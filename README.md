@@ -15,24 +15,6 @@ A machine learning pipeline to classify mathematical expressions (printed or han
 Academic and research documents are rich in mathematical content, but understanding math structure from images remains a challenge. 
 This project explores a path toward automating that process—starting with classification as a stepping stone to full LaTeX generation.
 
-## Project Structure
-autotex/
-├── data/ # Raw and processed datasets
-├── notebooks/ # Interactive dev notebooks
-├── src/ # Core code (models, training, inference)
-├── tests/ # Unit tests and evaluation scripts
-├── README.md
-├── requirements.txt
-└── .gitignore
-
-## Tech Stack
-
-- Python 3.x
-- PyTorch / torchvision
-- Matplotlib (for LaTeX image rendering)
-- OpenCV (for preprocessing)
-- Jupyter (for rapid dev and demo)
-
 ## Future Directions
 
 - Extend from classification → sequence prediction (LaTeX code)
