@@ -1,6 +1,95 @@
 filename,label,latex
 integral_0.png,integral,\int x^2 dx
 integral_1.png,integral,\int_0^\infty e^{-x} dx
+integral_2.png,integral,"\int \frac{d}{dx} {w} \, dw"
+integral_3.png,integral,"\int \frac{1}{{z}^2} \, dz"
+integral_4.png,integral,"\int \cos({w}) \, dw"
+integral_5.png,integral,"\int e^{-{\cos({\frac{1}{{v}}})}} \, dv"
+integral_6.png,integral,"\int t \, dt"
+integral_7.png,integral,"\int u \, du"
+integral_8.png,integral,"\int \sin({t}) \, dt"
+integral_9.png,integral,"\int \alpha \, d\alpha"
+integral_10.png,integral,"\int v \, dv"
+integral_11.png,integral,"\int \frac{\partial^2 {{\beta}^2}}{\partial t^2} \, d\beta"
+integral_12.png,integral,"\int {\frac{d}{dx} {{\sqrt{{{z}^2}}}^2}}^2 \, dz"
+integral_13.png,integral,"\int \cos({\frac{1}{{\frac{d}{dx} {\alpha}}}}) \, d\alpha"
+integral_14.png,integral,"\int u \, du"
+integral_15.png,integral,"\int x \, dx"
+integral_16.png,integral,"\int \ln({v}) \, dv"
+integral_17.png,integral,"\int \beta \, d\beta"
+integral_18.png,integral,"\int \sin({t}) \, dt"
+integral_19.png,integral,"\int \frac{1}{{\sqrt{{x}}}} \, dx"
+integral_20.png,integral,"\int x \, dx"
+integral_21.png,integral,"\int \ln({\phi}) \, d\phi"
+integral_22.png,integral,"\int \frac{1}{{\theta}^2} \, d\theta"
+integral_23.png,integral,"\int w \, dw"
+integral_24.png,integral,"\int x \, dx"
+integral_25.png,integral,"\int \frac{1}{{z}} \, dz"
+integral_26.png,integral,"\int v \, dv"
+integral_27.png,integral,"\int \frac{1}{{w}^2} \, dw"
+integral_28.png,integral,"\int \frac{1}{{\cos({\ln({\ln({\frac{1}{{y}^2}})})})}^2} \, dy"
+integral_29.png,integral,"\int \alpha \, d\alpha"
+integral_30.png,integral,"\int \sin({t}) \, dt"
+integral_31.png,integral,"\int x \, dx"
 derivative_0.png,derivative,\frac{d}{dx} x^3
 derivative_1.png,derivative,\frac{\partial^2 u}{\partial t^2}
+derivative_2.png,derivative,\frac{d}{dx} \frac{d}{dx} {\frac{d}{dx} {\sqrt{{w}}}}
+derivative_3.png,derivative,\frac{d}{dx} \cos({\sin({\frac{1}{{\phi}^2}})})
+derivative_4.png,derivative,\frac{d}{dx} \sqrt{{\cos({\frac{1}{{t}^2}})}}
+derivative_5.png,derivative,\frac{d}{dx} \cos({t})
+derivative_6.png,derivative,\frac{d}{dx} \frac{\partial^2 {{\phi}^2}}{\partial t^2}
+derivative_7.png,derivative,\frac{d}{dx} \frac{\partial^2 {\alpha}}{\partial t^2}
+derivative_8.png,derivative,\frac{d}{dx} z
+derivative_9.png,derivative,\frac{d}{dx} \cos({\sqrt{{\sin({\alpha})}}})
+derivative_10.png,derivative,\frac{d}{dx} t
+derivative_11.png,derivative,\frac{d}{dx} \frac{1}{{\phi}}
+derivative_12.png,derivative,\frac{d}{dx} {z}^2
+derivative_13.png,derivative,\frac{d}{dx} z
+derivative_14.png,derivative,\frac{d}{dx} u
+derivative_15.png,derivative,\frac{d}{dx} t
+derivative_16.png,derivative,\frac{d}{dx} \sin({\frac{\partial^2 {\beta}}{\partial t^2}})
+derivative_17.png,derivative,\frac{d}{dx} v
+derivative_18.png,derivative,\frac{d}{dx} \frac{d}{dx} {\ln({\cos({\phi})})}
+derivative_19.png,derivative,\frac{d}{dx} u
+derivative_20.png,derivative,\frac{d}{dx} u
+derivative_21.png,derivative,\frac{d}{dx} e^{-{{\ln({x})}^2}}
+derivative_22.png,derivative,\frac{d}{dx} x
+derivative_23.png,derivative,\frac{d}{dx} \frac{d}{dx} {u}
+derivative_24.png,derivative,\frac{d}{dx} \sqrt{{e^{-{w}}}}
+derivative_25.png,derivative,\frac{d}{dx} y
+derivative_26.png,derivative,\frac{d}{dx} u
+derivative_27.png,derivative,\frac{d}{dx} \frac{1}{{t}}
+derivative_28.png,derivative,\frac{d}{dx} \frac{1}{{\ln({{y}^2})}^2}
+derivative_29.png,derivative,\frac{d}{dx} \theta
+derivative_30.png,derivative,\frac{d}{dx} u
+derivative_31.png,derivative,\frac{d}{dx} \cos({\sin({\alpha})})
 sum_0.png,sum,\sum_{n=1}^\infty \frac{1}{n^2}
+sum_1.png,sum,\sum_{j=1}^{\infty} \frac{1}{j^2}
+sum_2.png,sum,\sum_{m=1}^{\infty} \frac{1}{m^2}
+sum_3.png,sum,\sum_{m=1}^{\infty} \frac{1}{m^2}
+sum_4.png,sum,\sum_{i=1}^{\infty} \frac{1}{\frac{d}{dx} {i}^2}
+sum_5.png,sum,\sum_{i=1}^{\infty} \frac{1}{\sin({i})^2}
+sum_6.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
+sum_7.png,sum,\sum_{n=1}^{\infty} \frac{1}{\sin({n})^2}
+sum_8.png,sum,\sum_{j=1}^{\infty} \frac{1}{j^2}
+sum_9.png,sum,\sum_{n=1}^{\infty} \frac{1}{\cos({n})^2}
+sum_10.png,sum,\sum_{n=1}^{\infty} \frac{1}{\frac{d}{dx} {{n}^2}^2}
+sum_11.png,sum,\sum_{k=1}^{\infty} \frac{1}{k^2}
+sum_12.png,sum,\sum_{n=1}^{\infty} \frac{1}{\frac{1}{{n}}^2}
+sum_13.png,sum,\sum_{m=1}^{\infty} \frac{1}{\sqrt{{{\sqrt{{m}}}^2}}^2}
+sum_14.png,sum,\sum_{k=1}^{\infty} \frac{1}{\frac{1}{{k}^2}^2}
+sum_15.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
+sum_16.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
+sum_17.png,sum,\sum_{m=1}^{\infty} \frac{1}{m^2}
+sum_18.png,sum,\sum_{m=1}^{\infty} \frac{1}{\ln({m})^2}
+sum_19.png,sum,\sum_{n=1}^{\infty} \frac{1}{\ln({n})^2}
+sum_20.png,sum,\sum_{k=1}^{\infty} \frac{1}{k^2}
+sum_21.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
+sum_22.png,sum,\sum_{k=1}^{\infty} \frac{1}{\cos({k})^2}
+sum_23.png,sum,\sum_{m=1}^{\infty} \frac{1}{\frac{1}{{m}}^2}
+sum_24.png,sum,\sum_{j=1}^{\infty} \frac{1}{\sin({\cos({\frac{1}{{\ln({j})}}})})^2}
+sum_25.png,sum,\sum_{m=1}^{\infty} \frac{1}{\frac{1}{{\sqrt{{m}}}^2}^2}
+sum_26.png,sum,\sum_{j=1}^{\infty} \frac{1}{\sqrt{{j}}^2}
+sum_27.png,sum,\sum_{i=1}^{\infty} \frac{1}{\frac{1}{{i}^2}^2}
+sum_28.png,sum,\sum_{k=1}^{\infty} \frac{1}{\cos({k})^2}
+sum_30.png,sum,\sum_{k=1}^{\infty} \frac{1}{k^2}
