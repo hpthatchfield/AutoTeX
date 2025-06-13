@@ -17,7 +17,7 @@ import re
 # }
 
 def generate_features(expr: str) -> str:
-    expr_wrapped = f"{{{expr}}}"  # Always wrap input in braces to avoid invalid LaTeX syntax
+    expr_wrapped = f"{{{expr}}}"  # Always wrap to preserve nesting validity
 
     features = [
         f"{expr_wrapped}^2",
@@ -31,7 +31,8 @@ def generate_features(expr: str) -> str:
         f"\\frac{{\\partial^2 {expr_wrapped}}}{{\\partial t^2}}",
         f"\\frac{{1}}{{{expr_wrapped}^2}}",
     ]
-    return np.random.choice(features)
+    return f"{{{np.random.choice(features)}}}"
+
 
 
 
@@ -50,15 +51,15 @@ def generate_latex_examples(num_per_class: int, seed: int = 42) -> Dict[str, Lis
         ### First up, we do integrals
         ### choose an initial object for the integrand 
         initial_integrand_options = ["x", "t", "u", "v", "y", "z", "w", "\\theta", "\phi", "\\alpha", "\\beta"]
-        lower_limit_options = ["0", "1", "\\theta", "a_1", "b_1", "-\\infty"]
-        upper_limit_options = ["\\infty", "1", "\\theta", "a_2", "b_2", "0"]
+        lower_limit_options = ["0", "1", "\\theta", "a", "-\\infty"]
+        upper_limit_options = ["\\infty", "1", "\\theta", "b", "0"]
         init_integrand = np.random.choice(initial_integrand_options)
         integrand = init_integrand
         lower = np.random.choice(lower_limit_options)
         upper = np.random.choice(upper_limit_options)
         while np.random.rand() < 0.5:
             integrand = generate_features(integrand)
-        examples["integral"].append(rf"\int {integrand} \, d{init_integrand}")
+        examples["integral"].append(rf"\int^{{{upper}}}_{{{lower}}} {integrand} \, d{init_integrand}")
 
 
         initial_derivative_options = ["x", "t", "u", "v", "y", "z", "w", "\\theta", "\phi", "\\alpha", "\\beta"]
