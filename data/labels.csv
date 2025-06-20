@@ -1,96 +1,151 @@
-filename,label,latex
-integral_0.png,integral,\int x^2 dx
-integral_1.png,integral,\int_0^\infty e^{-x} dx
-integral_2.png,integral,"\int^{0}_{a} {\frac{d}{dx} {w}} \, dw"
-integral_3.png,integral,"\int^{b}_{1} {\frac{1}{{z}^2}} \, dz"
-integral_4.png,integral,"\int^{\infty}_{-\infty} {\cos({w})} \, dw"
-integral_5.png,integral,"\int^{b}_{1} {e^{-{{\cos({{\frac{1}{{v}}}})}}}} \, dv"
-integral_6.png,integral,"\int^{1}_{-\infty} t \, dt"
-integral_7.png,integral,"\int^{\infty}_{\theta} u \, du"
-integral_8.png,integral,"\int^{0}_{0} t \, dt"
-integral_9.png,integral,"\int^{\infty}_{\theta} \alpha \, d\alpha"
-integral_10.png,integral,"\int^{\theta}_{-\infty} v \, dv"
-integral_11.png,integral,"\int^{b}_{1} {\frac{\partial^2 {{{\beta}^2}}}{\partial t^2}} \, d\beta"
-integral_12.png,integral,"\int^{b}_{0} {{{\frac{d}{dx} {{{{\sqrt{{{{z}^2}}}}}^2}}}}^2} \, dz"
-integral_13.png,integral,"\int^{\theta}_{a} {{\alpha}^2} \, d\alpha"
-integral_14.png,integral,"\int^{b}_{0} x \, dx"
-integral_15.png,integral,"\int^{b}_{a} u \, du"
-integral_16.png,integral,"\int^{\infty}_{a} {\ln({v})} \, dv"
-integral_17.png,integral,"\int^{b}_{0} \beta \, d\beta"
-integral_18.png,integral,"\int^{1}_{1} t \, dt"
-integral_19.png,integral,"\int^{\theta}_{a} {\frac{1}{{{\sqrt{{x}}}}}} \, dx"
-integral_20.png,integral,"\int^{b}_{-\infty} x \, dx"
-integral_21.png,integral,"\int^{0}_{-\infty} {\ln({\phi})} \, d\phi"
-integral_22.png,integral,"\int^{1}_{1} {\frac{1}{{\theta}^2}} \, d\theta"
-integral_23.png,integral,"\int^{1}_{-\infty} w \, dw"
-integral_24.png,integral,"\int^{\theta}_{a} {\sqrt{{{e^{-{x}}}}}} \, dx"
-integral_25.png,integral,"\int^{b}_{a} y \, dy"
-integral_26.png,integral,"\int^{\theta}_{0} {\frac{1}{{{\sqrt{{u}}}}^2}} \, du"
-integral_27.png,integral,"\int^{\theta}_{-\infty} {\sin({y})} \, dy"
-integral_28.png,integral,"\int^{b}_{1} {\frac{1}{{v}^2}} \, dv"
-integral_29.png,integral,"\int^{b}_{0} t \, dt"
-integral_30.png,integral,"\int^{\infty}_{0} u \, du"
-integral_31.png,integral,"\int^{1}_{1} {\cos({{\sin({\alpha})}})} \, d\alpha"
-derivative_0.png,derivative,\frac{d}{dx} x^3
-derivative_1.png,derivative,\frac{\partial^2 u}{\partial t^2}
-derivative_2.png,derivative,\frac{d}{dx} {\frac{d}{dx} {{\frac{d}{dx} {{\sqrt{{w}}}}}}}
-derivative_3.png,derivative,\frac{d}{dx} {\cos({{\sin({{\frac{1}{{\phi}^2}}})}})}
-derivative_4.png,derivative,\frac{d}{dx} {\sqrt{{{\cos({{\frac{1}{{t}^2}}})}}}}
-derivative_5.png,derivative,\frac{d}{dx} {\cos({t})}
-derivative_6.png,derivative,\frac{d}{dx} {\frac{\partial^2 {{{\phi}^2}}}{\partial t^2}}
-derivative_7.png,derivative,\frac{d}{dx} {\frac{\partial^2 {\alpha}}{\partial t^2}}
-derivative_8.png,derivative,\frac{d}{dx} {\ln({{\sin({\theta})}})}
-derivative_9.png,derivative,\frac{d}{dx} {\cos({{\sqrt{{{\sin({\alpha})}}}}})}
-derivative_10.png,derivative,\frac{d}{dx} t
-derivative_11.png,derivative,\frac{d}{dx} {\frac{1}{{\phi}}}
-derivative_12.png,derivative,\frac{d}{dx} {{z}^2}
-derivative_13.png,derivative,\frac{d}{dx} {e^{-{\theta}}}
-derivative_14.png,derivative,\frac{d}{dx} u
-derivative_15.png,derivative,\frac{d}{dx} {e^{-{\theta}}}
-derivative_16.png,derivative,\frac{d}{dx} {\sin({{\frac{\partial^2 {\beta}}{\partial t^2}}})}
-derivative_17.png,derivative,\frac{d}{dx} v
-derivative_18.png,derivative,\frac{d}{dx} {\frac{d}{dx} {{\ln({{\cos({\phi})}})}}}
-derivative_19.png,derivative,\frac{d}{dx} u
-derivative_20.png,derivative,\frac{d}{dx} u
-derivative_21.png,derivative,\frac{d}{dx} {e^{-{{{{\ln({x})}}^2}}}}
-derivative_22.png,derivative,\frac{d}{dx} x
-derivative_23.png,derivative,\frac{d}{dx} {\frac{d}{dx} {u}}
-derivative_24.png,derivative,\frac{d}{dx} {\frac{1}{{u}}}
-derivative_25.png,derivative,\frac{d}{dx} {\sin({{\cos({w})}})}
-derivative_26.png,derivative,\frac{d}{dx} {\frac{1}{{{e^{-{{\frac{1}{{{\ln({w})}}^2}}}}}}}}
-derivative_27.png,derivative,\frac{d}{dx} {\frac{1}{{{\cos({{\ln({\phi})}})}}^2}}
-derivative_28.png,derivative,\frac{d}{dx} x
-derivative_29.png,derivative,\frac{d}{dx} \beta
-derivative_30.png,derivative,\frac{d}{dx} {e^{-{{e^{-{\beta}}}}}}
-derivative_31.png,derivative,\frac{d}{dx} t
-sum_0.png,sum,\sum_{n=1}^\infty \frac{1}{n^2}
-sum_1.png,sum,\sum_{j=1}^{\infty} \frac{1}{j^2}
-sum_2.png,sum,\sum_{m=1}^{\infty} \frac{1}{m^2}
-sum_3.png,sum,\sum_{m=1}^{\infty} \frac{1}{m^2}
-sum_4.png,sum,\sum_{i=1}^{\infty} \frac{1}{{\frac{d}{dx} {i}}^2}
-sum_5.png,sum,\sum_{i=1}^{\infty} \frac{1}{{\sin({i})}^2}
-sum_6.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
-sum_7.png,sum,\sum_{m=1}^{\infty} \frac{1}{m^2}
-sum_8.png,sum,\sum_{j=1}^{\infty} \frac{1}{j^2}
-sum_9.png,sum,\sum_{n=1}^{\infty} \frac{1}{{\cos({n})}^2}
-sum_10.png,sum,\sum_{n=1}^{\infty} \frac{1}{{\frac{d}{dx} {{{n}^2}}}^2}
-sum_11.png,sum,\sum_{k=1}^{\infty} \frac{1}{k^2}
-sum_12.png,sum,\sum_{m=1}^{\infty} \frac{1}{m^2}
-sum_13.png,sum,\sum_{m=1}^{\infty} \frac{1}{{\frac{1}{{m}^2}}^2}
-sum_14.png,sum,\sum_{m=1}^{\infty} \frac{1}{{\frac{1}{{{\frac{1}{{{\frac{\partial^2 {m}}{\partial t^2}}}^2}}}^2}}^2}
-sum_15.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
-sum_16.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
-sum_17.png,sum,\sum_{m=1}^{\infty} \frac{1}{m^2}
-sum_18.png,sum,\sum_{m=1}^{\infty} \frac{1}{{\ln({m})}^2}
-sum_19.png,sum,\sum_{n=1}^{\infty} \frac{1}{{\ln({n})}^2}
-sum_20.png,sum,\sum_{k=1}^{\infty} \frac{1}{k^2}
-sum_21.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
-sum_22.png,sum,\sum_{k=1}^{\infty} \frac{1}{{\cos({k})}^2}
-sum_23.png,sum,\sum_{n=1}^{\infty} \frac{1}{{\ln({{\frac{1}{{n}}}})}^2}
-sum_24.png,sum,\sum_{i=1}^{\infty} \frac{1}{{e^{-{i}}}^2}
-sum_25.png,sum,\sum_{j=1}^{\infty} \frac{1}{{\sqrt{{j}}}^2}
-sum_26.png,sum,\sum_{j=1}^{\infty} \frac{1}{{\frac{1}{{{\ln({{{j}^2}})}}^2}}^2}
-sum_27.png,sum,\sum_{j=1}^{\infty} \frac{1}{{\frac{d}{dx} {j}}^2}
-sum_28.png,sum,\sum_{i=1}^{\infty} \frac{1}{{\sin({{{i}^2}})}^2}
-sum_29.png,sum,\sum_{n=1}^{\infty} \frac{1}{n^2}
-sum_30.png,sum,\sum_{j=1}^{\infty} \frac{1}{{\frac{\partial^2 {j}}{\partial t^2}}^2}
+filename,label,latex,complexity
+integral_0.png,integral,"\int_{0}^{b} {{{\frac{1}{{\cos(x)}}}}^{2}} \, dx",5
+integral_1.png,integral,"\int_{a}^{b} {\cos\left({\sin(x)}\right)} \, dx",7
+integral_2.png,integral,"\int_{1}^{\infty} {{{\sin\left({{\frac{1}{{\sin(x)}}}}\right)}}^{2}} \, dx",9
+integral_3.png,integral,"\int_{-\infty}^{1} {\cos\left({\sqrt{1}}\right)} \, dx",8
+integral_4.png,integral,"\int_{-\infty}^{0} {\sqrt{{{{{\sin\left({-1}\right)}}^{2}}}}} \, dx",8
+integral_5.png,integral,"\int_{a}^{0} {{\cos(x)}^{2}} \, dx",4
+integral_6.png,integral,"\int_{a}^{\infty} {{\sin(x)}^{2}} \, dx",5
+integral_7.png,integral,"\int_{1}^{1} {{3}^{2}} \, dx",3
+integral_8.png,integral,"\int_{-\infty}^{b} {\sqrt{{\cos(x)}}} \, dx",6
+integral_9.png,integral,"\int_{1}^{\infty} \sin(x) \, dx",5
+integral_10.png,integral,"\int_{1}^{1} {\frac{1}{{\cos(x)}}} \, dx",5
+integral_11.png,integral,"\int_{1}^{1} {\frac{1}{{{\sin\left({{\ln\left({\frac{2}{2}}\right)}}\right)}}}} \, dx",11
+integral_12.png,integral,"\int_{0}^{1} {\cos\left({\cos(x)}\right)} \, dx",7
+integral_13.png,integral,"\int_{0}^{0} {\sin\left({x^{4}}\right)} \, dx",6
+integral_14.png,integral,"\int_{0}^{\infty} \cos(x) \, dx",5
+integral_15.png,integral,"\int_{0}^{b} {\cos\left({\sqrt{1}}\right)} \, dx",7
+integral_16.png,integral,"\int_{a}^{\infty} {\sqrt{{{\frac{d}{dx} {\sin(x)}}}}} \, dx",7
+integral_17.png,integral,"\int_{1}^{\infty} {{{\cos\left({{\frac{1}{{x^{4}}}}}\right)}}^{2}} \, dx",8
+integral_18.png,integral,"\int_{a}^{0} {\sum_{i=1}^{n} {\frac{8}{5}}} \, dx",5
+integral_19.png,integral,"\int_{0}^{b} {\frac{1}{{{\ln\left({-8}\right)}}}} \, dx",7
+integral_20.png,integral,"\int_{a}^{b} \frac{7}{9} \, dx",4
+integral_21.png,integral,"\int_{0}^{b} \cos(x) \, dx",4
+integral_22.png,integral,"\int_{0}^{0} {{9}^{2}} \, dx",3
+integral_23.png,integral,"\int_{0}^{0} {e^{{\sqrt{4}}}} \, dx",4
+integral_24.png,integral,"\int_{1}^{1} {\sum_{i=1}^{n} {{\sqrt{{\cos(x)}}}}} \, dx",6
+integral_25.png,integral,"\int_{-\infty}^{0} {\sum_{i=1}^{n} {\cos(x)}} \, dx",6
+integral_26.png,integral,"\int_{-\infty}^{\infty} {{x^{4}}^{2}} \, dx",5
+integral_27.png,integral,"\int_{0}^{\infty} {{9}^{2}} \, dx",4
+integral_28.png,integral,"\int_{0}^{1} \sin(x) \, dx",4
+integral_29.png,integral,"\int_{1}^{0} \sin(x) \, dx",4
+derivative_0.png,derivative,\frac{d}{dx} {\frac{1}{{\sin(x)}}},4
+derivative_1.png,derivative,\frac{d}{dx} {\lim_{x \to \infty} {9}},5
+derivative_2.png,derivative,\frac{d}{dx} \cos(x),3
+derivative_3.png,derivative,\frac{d}{dx} {\sin\left({x^{4}}\right)},5
+derivative_4.png,derivative,\frac{d}{dx} {\cos\left({{{{\cos\left({6}\right)}}^{2}}}\right)},8
+derivative_5.png,derivative,\frac{d}{dx} {\frac{1}{{8}}},3
+derivative_6.png,derivative,\frac{d}{dx} x^{3},2
+derivative_7.png,derivative,\frac{d}{dx} \cos(x),3
+derivative_8.png,derivative,\frac{d}{dx} \sin(x),3
+derivative_9.png,derivative,\frac{d}{dx} {\sqrt{{\frac{8}{5}}}},4
+derivative_10.png,derivative,\frac{d}{dx} {{{\frac{d}{dx} {\sin(x)}}}^{2}},4
+derivative_11.png,derivative,\frac{d}{dx} \sin(x),3
+derivative_12.png,derivative,\frac{d}{dx} {e^{{\sqrt{3}}}},3
+derivative_13.png,derivative,\frac{d}{dx} {\cos\left({{\frac{d}{dx} {\sin(x)}}}\right)},7
+derivative_14.png,derivative,\frac{d}{dx} {\frac{1}{{{\frac{1}{{{\cos\left({\cos(x)}\right)}}}}}}},8
+derivative_15.png,derivative,\frac{d}{dx} {{\sin(x)}^{2}},3
+derivative_16.png,derivative,\frac{d}{dx} {\frac{1}{{\frac{3}{7}}}},4
+derivative_17.png,derivative,\frac{d}{dx} {\sin\left({9}\right)},5
+derivative_18.png,derivative,\frac{d}{dx} {\sin\left({{{\frac{5}{5}}^{2}}}\right)},6
+derivative_19.png,derivative,\frac{d}{dx} {\sum_{i=1}^{n} {{\sum_{i=1}^{n} {\sin(x)}}}},5
+derivative_20.png,derivative,\frac{d}{dx} 9,2
+derivative_21.png,derivative,\frac{d}{dx} {{{\sqrt{{\cos(x)}}}}^{2}},4
+derivative_22.png,derivative,\frac{d}{dx} {\frac{1}{{{\sin\left({{\sin\left({\frac{9}{3}}\right)}}\right)}}}},10
+derivative_23.png,derivative,\frac{d}{dx} {\sin\left({\sin(x)}\right)},6
+derivative_24.png,derivative,\frac{d}{dx} -7,2
+derivative_25.png,derivative,\frac{d}{dx} {\ln\left({\sqrt{4}}\right)},6
+derivative_26.png,derivative,\frac{d}{dx} {\frac{1}{{\sin(x)}}},4
+derivative_27.png,derivative,\frac{d}{dx} {\sqrt{{\cos(x)}}},4
+derivative_28.png,derivative,\frac{d}{dx} {\sum_{i=1}^{n} {\frac{6}{6}}},4
+derivative_29.png,derivative,\frac{d}{dx} {\cos\left({\sin(x)}\right)},6
+sum_0.png,sum,\sum_{i=1}^{\infty} {{4}^{2}},3
+sum_1.png,sum,\sum_{i=1}^{\infty} {\frac{d}{dx} {\sqrt{3}}},5
+sum_2.png,sum,"\sum_{i=1}^{\infty} {\cos\left({{\sum_{i=1}^{n} {{\int_{a}^{b} {1} \, dx}}}}\right)}",9
+sum_3.png,sum,"\sum_{i=1}^{\infty} {\int_{a}^{b} {{\int_{a}^{b} {{\cos\left({-6}\right)}} \, dx}} \, dx}",10
+sum_4.png,sum,\sum_{i=1}^{\infty} 9,3
+sum_5.png,sum,\sum_{i=1}^{\infty} \sqrt{7},4
+sum_6.png,sum,\sum_{i=1}^{\infty} \sin(x),4
+sum_7.png,sum,\sum_{i=1}^{\infty} {{{\frac{1}{{{e^{{-1}}}}}}}^{2}},4
+sum_8.png,sum,\sum_{i=1}^{\infty} \frac{7}{2},4
+sum_9.png,sum,\sum_{i=1}^{\infty} {\frac{1}{{x^{3}}}},4
+sum_10.png,sum,\sum_{i=1}^{\infty} {\sin\left({{\frac{1}{{0}}}}\right)},7
+sum_11.png,sum,\sum_{i=1}^{\infty} x^{4},3
+sum_12.png,sum,\sum_{i=1}^{\infty} {\frac{d}{dx} {\sqrt{7}}},5
+sum_13.png,sum,\sum_{i=1}^{\infty} {\sum_{i=1}^{n} {{\frac{d}{dx} {-3}}}},5
+sum_14.png,sum,\sum_{i=1}^{\infty} {\cos\left({\cos(x)}\right)},7
+sum_15.png,sum,\sum_{i=1}^{\infty} \frac{3}{9},4
+sum_16.png,sum,\sum_{i=1}^{\infty} \frac{6}{6},4
+sum_17.png,sum,\sum_{i=1}^{\infty} {\frac{1}{{x^{3}}}},4
+sum_18.png,sum,"\sum_{i=1}^{\infty} {\int_{a}^{b} {{\sin\left({\sqrt{1}}\right)}} \, dx}",9
+sum_19.png,sum,\sum_{i=1}^{\infty} {\cos\left({{{\cos(x)}^{2}}}\right)},7
+sum_20.png,sum,\sum_{i=1}^{\infty} {\ln\left({\sin(x)}\right)},7
+sum_21.png,sum,\sum_{i=1}^{\infty} {\sin\left({\sqrt{2}}\right)},7
+sum_22.png,sum,\sum_{i=1}^{\infty} {{8}^{2}},3
+sum_23.png,sum,\sum_{i=1}^{\infty} \sqrt{5},4
+sum_24.png,sum,\sum_{i=1}^{\infty} {{1}^{2}},3
+sum_25.png,sum,\sum_{i=1}^{\infty} 4,3
+sum_26.png,sum,\sum_{i=1}^{\infty} {\sin\left({\frac{6}{9}}\right)},7
+sum_27.png,sum,\sum_{i=1}^{\infty} {\cos\left({\sqrt{7}}\right)},7
+sum_28.png,sum,\sum_{i=1}^{\infty} \sqrt{7},4
+sum_29.png,sum,\sum_{i=1}^{\infty} {{{{x^{4}}^{2}}}^{2}},3
+fraction_0.png,fraction,\frac{{\frac{1}{{\sqrt{1}}}}}{\frac{4}{5}},5
+fraction_1.png,fraction,\frac{\cos(x)}{{\sqrt{{-6}}}},4
+fraction_2.png,fraction,"\frac{x^{4}}{{\int {{\sqrt{{{\frac{1}{{x^{3}}}}}}}} \, dx}}",6
+fraction_3.png,fraction,\frac{{\frac{d}{dx} {\cos(x)}}}{{\frac{1}{{\sin(x)}}}},6
+fraction_4.png,fraction,\frac{{\sin\left({\sin(x)}\right)}}{{\sin\left({\sqrt{3}}\right)}},10
+fraction_5.png,fraction,\frac{\frac{2}{3}}{{\cos\left({x^{4}}\right)}},6
+fraction_6.png,fraction,\frac{x^{3}}{\frac{2}{3}},3
+fraction_7.png,fraction,\frac{\cos(x)}{{{x^{2}}^{2}}},3
+fraction_8.png,fraction,\frac{{\cos\left({-7}\right)}}{{\prod_{i=1}^{n} {x^{2}}}},6
+fraction_9.png,fraction,\frac{{\sum_{i=1}^{n} {\frac{5}{1}}}}{{\frac{1}{{\sqrt{7}}}}},6
+fraction_10.png,fraction,\frac{\frac{3}{1}}{\cos(x)},4
+fraction_11.png,fraction,\frac{8}{{e^{{\cos(x)}}}},3
+fraction_12.png,fraction,\frac{{{\cos(x)}^{2}}}{\sin(x)},4
+fraction_13.png,fraction,\frac{\cos(x)}{{\frac{d}{dx} {9}}},4
+fraction_14.png,fraction,\frac{{\frac{1}{{-4}}}}{\sqrt{5}},4
+fraction_15.png,fraction,\frac{{\sin\left({\sqrt{3}}\right)}}{{\frac{1}{{{\frac{1}{{\sqrt{2}}}}}}}},9
+fraction_16.png,fraction,\frac{{{7}^{2}}}{{\cos\left({\sin(x)}\right)}},6
+fraction_17.png,fraction,\frac{{\frac{d}{dx} {9}}}{{\cos\left({{\cos\left({-4}\right)}}\right)}},9
+fraction_18.png,fraction,\frac{{{x^{4}}^{2}}}{\frac{3}{2}},3
+fraction_19.png,fraction,\frac{\sqrt{9}}{{\cos\left({-8}\right)}},6
+fraction_20.png,fraction,\frac{{{-10}^{2}}}{{\frac{1}{{\frac{5}{6}}}}},4
+fraction_21.png,fraction,\frac{\sqrt{5}}{{\frac{1}{{\cos(x)}}}},5
+fraction_22.png,fraction,\frac{{\ln\left({6}\right)}}{\frac{1}{5}},6
+fraction_23.png,fraction,\frac{{\sqrt{{{\cos\left({{\cos\left({\sin(x)}\right)}}\right)}}}}}{\cos(x)},11
+fraction_24.png,fraction,\frac{x^{3}}{\cos(x)},3
+fraction_25.png,fraction,\frac{-7}{{\sin\left({\sin(x)}\right)}},6
+fraction_26.png,fraction,\frac{\cos(x)}{{\cos\left({{\ln\left({\sqrt{3}}\right)}}\right)}},10
+fraction_27.png,fraction,\frac{\frac{2}{5}}{{\cos\left({-10}\right)}},6
+fraction_28.png,fraction,\frac{{{{\cos\left({x^{4}}\right)}}^{2}}}{6},5
+fraction_29.png,fraction,\frac{{\sin\left({\frac{1}{5}}\right)}}{{\cos\left({{\ln\left({\sqrt{6}}\right)}}\right)}},13
+limit_0.png,limit,\lim_{x \to \infty} {\sin\left({8}\right)},7
+limit_1.png,limit,\lim_{x \to -\infty} -3,4
+limit_2.png,limit,\lim_{x \to 0} {\frac{1}{{x^{3}}}},4
+limit_3.png,limit,\lim_{x \to 0} {\frac{1}{{{\frac{d}{dx} {{{x^{2}}^{2}}}}}}},5
+limit_4.png,limit,\lim_{x \to 0} {{{\sin\left({\sqrt{5}}\right)}}^{2}},7
+limit_5.png,limit,\lim_{x \to 0} {\frac{1}{{\cos(x)}}},5
+limit_6.png,limit,\lim_{x \to -\infty} {\cos\left({\frac{3}{2}}\right)},8
+limit_7.png,limit,\lim_{x \to 0} {\frac{1}{{\cos(x)}}},5
+limit_8.png,limit,\lim_{x \to 0} {\cos\left({{\sin\left({{\frac{1}{{\sqrt{4}}}}}\right)}}\right)},11
+limit_9.png,limit,\lim_{x \to \infty} {\sin\left({x^{3}}\right)},7
+limit_10.png,limit,\lim_{x \to -\infty} {\frac{1}{{\sin(x)}}},6
+limit_11.png,limit,\lim_{x \to 0} {{\sin(x)}^{2}},4
+limit_12.png,limit,\lim_{x \to -\infty} {\sum_{i=1}^{n} {\cos(x)}},6
+limit_13.png,limit,\lim_{x \to \infty} {\frac{1}{{{\sin\left({{\sqrt{{\sin(x)}}}}\right)}}}},10
+limit_14.png,limit,\lim_{x \to \infty} x^{3},4
+limit_15.png,limit,\lim_{x \to \infty} {\sum_{i=1}^{n} {\frac{1}{5}}},6
+limit_16.png,limit,\lim_{x \to 0} {{3}^{2}},3
+limit_17.png,limit,\lim_{x \to \infty} {\frac{1}{{4}}},5
+limit_18.png,limit,\lim_{x \to 1} {{\sin(x)}^{2}},4
+limit_19.png,limit,\lim_{x \to \infty} \cos(x),5
+limit_20.png,limit,\lim_{x \to \infty} {\sin\left({{\frac{\partial}{\partial t} {{\frac{1}{{\sin(x)}}}}}}\right)},12
+limit_21.png,limit,\lim_{x \to 1} {\ln\left({\cos(x)}\right)},7
+limit_22.png,limit,\lim_{x \to 1} x^{3},3
+limit_23.png,limit,\lim_{x \to 1} {{{\ln\left({\sin(x)}\right)}}^{2}},7
+limit_24.png,limit,\lim_{x \to 0} {\sin\left({x^{3}}\right)},6
+limit_25.png,limit,\lim_{x \to -\infty} -6,4
+limit_26.png,limit,\lim_{x \to 1} 6,3
+limit_27.png,limit,\lim_{x \to \infty} {e^{{\frac{9}{1}}}},5
+limit_28.png,limit,\lim_{x \to \infty} {{\sin(x)}^{2}},5
+limit_29.png,limit,\lim_{x \to -\infty} {{\frac{2}{8}}^{2}},5

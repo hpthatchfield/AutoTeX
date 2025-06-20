@@ -51,6 +51,10 @@ def render_latex_to_image(latex_str, output_path, dpi=200,
     # Apply post-processing
     img = Image.open(temp_path)
     
+    # Convert to RGBA if not already
+    if img.mode != 'RGBA':
+        img = img.convert('RGBA')
+    
     # Random rotation
     if rotation_range:
         angle = np.random.uniform(rotation_range[0], rotation_range[1])
@@ -58,9 +62,15 @@ def render_latex_to_image(latex_str, output_path, dpi=200,
     
     # Add noise if requested
     if add_noise:
-        noise = np.random.normal(0, 5, img.size + (3,))
+        # Convert to numpy array
+        img_array = np.array(img)
+        # Generate noise with same shape as image
+        noise_intensity = np.random.uniform(1, 2)  # Random intensity between 1 and 2
+        noise = np.random.normal(0, noise_intensity, img_array.shape)
         noise = noise.astype(np.uint8)
-        img = Image.fromarray(np.clip(np.array(img) + noise, 0, 255).astype(np.uint8))
+        # Add noise and clip values
+        img_array = np.clip(img_array + noise, 0, 255).astype(np.uint8)
+        img = Image.fromarray(img_array)
     
     # Save final image
     img.save(output_path)
