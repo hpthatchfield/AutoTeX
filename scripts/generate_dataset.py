@@ -108,10 +108,12 @@ def generate_integral() -> Tuple[str, int]:
     
     # Add complexity layers based on determined complexity
     complexity = determine_complexity()
+    total_complexity = complexity  # Start with base complexity
     for _ in range(complexity):
         integrand = add_complexity(integrand, complexity_level=min(_ + 1, 3))
+        total_complexity += 1  # Each layer adds 1 to complexity
     
-    return f"\\int_{{{lower}}}^{{{upper}}} {integrand} \\, dx", complexity
+    return f"\\int_{{{lower}}}^{{{upper}}} {integrand} \\, dx", min(total_complexity, 3)
 
 def generate_derivative() -> Tuple[str, int]:
     """Generate a valid derivative expression with variable complexity."""
@@ -119,10 +121,12 @@ def generate_derivative() -> Tuple[str, int]:
     
     # Add complexity layers based on determined complexity
     complexity = determine_complexity()
+    total_complexity = complexity
     for _ in range(complexity):
         expr = add_complexity(expr, complexity_level=min(_ + 1, 3))
+        total_complexity += 1
     
-    return f"\\frac{{d}}{{dx}} {expr}", complexity
+    return f"\\frac{{d}}{{dx}} {expr}", min(total_complexity, 3)
 
 def generate_sum() -> Tuple[str, int]:
     """Generate a valid sum expression with variable complexity."""
@@ -130,10 +134,12 @@ def generate_sum() -> Tuple[str, int]:
     
     # Add complexity layers based on determined complexity
     complexity = determine_complexity()
+    total_complexity = complexity
     for _ in range(complexity):
         expr = add_complexity(expr, complexity_level=min(_ + 1, 3))
+        total_complexity += 1
     
-    return f"\\sum_{{i=1}}^{{\\infty}} {expr}", complexity
+    return f"\\sum_{{i=1}}^{{\\infty}} {expr}", min(total_complexity, 3)
 
 def generate_fraction() -> Tuple[str, int]:
     """Generate a valid fraction expression with variable complexity."""
@@ -142,13 +148,15 @@ def generate_fraction() -> Tuple[str, int]:
     
     # Add complexity layers based on determined complexity
     complexity = determine_complexity()
+    total_complexity = complexity
     for _ in range(complexity):
         if np.random.random() < 0.5:
             numerator = add_complexity(numerator, complexity_level=min(_ + 1, 3))
         else:
             denominator = add_complexity(denominator, complexity_level=min(_ + 1, 3))
+        total_complexity += 1
     
-    return f"\\frac{{{numerator}}}{{{denominator}}}", complexity
+    return f"\\frac{{{numerator}}}{{{denominator}}}", min(total_complexity, 3)
 
 def generate_limit() -> Tuple[str, int]:
     """Generate a valid limit expression with variable complexity."""
@@ -157,10 +165,12 @@ def generate_limit() -> Tuple[str, int]:
     
     # Add complexity layers based on determined complexity
     complexity = determine_complexity()
+    total_complexity = complexity
     for _ in range(complexity):
         expr = add_complexity(expr, complexity_level=min(_ + 1, 3))
+        total_complexity += 1
     
-    return f"\\lim_{{x \\to {limit_to}}} {expr}", complexity
+    return f"\\lim_{{x \\to {limit_to}}} {expr}", min(total_complexity, 3)
 
 def generate_latex_examples(num_per_class: int, seed: int = 42) -> Dict[str, List[Tuple[str, int]]]:
     """Generate LaTeX examples for different mathematical operations.
