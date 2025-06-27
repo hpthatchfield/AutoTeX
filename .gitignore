@@ -1,0 +1,33 @@
+# Data files
+data/images/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Model checkpoints (if we add them later)
+*.pth
+*.pt
+*.ckpt
